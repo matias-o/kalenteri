@@ -6,6 +6,7 @@
     if (day < )
     
 } */
+
 function tarkistaAika() {
     var viikko = getWeekNumber(new Date());
     if (viikko > 16){
@@ -40,5 +41,6 @@ function getWeekNumber(d) {
     return weekNo;
 }
 
+/* Viikkonumero */
 var result = getWeekNumber(new Date());
 document.write(result);
