@@ -8,12 +8,22 @@
 } */
 function tarkistaAika() {
     var viikko = getWeekNumber(new Date());
+    if (viikko > 16){
+        alert("it's a corona time babe!")
+    }
+        
+       
+}
+
+function tarkistaAika2() {
+    var viikko = getWeekNumber(new Date());
     if (viikko > 18){
         alert("it's a corona time babe!")
     }
         
        
 }
+
 
 
 function getWeekNumber(d) {
