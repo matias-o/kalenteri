@@ -8,7 +8,7 @@
 } */
 function tarkistaAika() {
     var viikko = getWeekNumber(new Date());
-    if (viikko > 16){
+    if (viikko > 18){
         alert("it's a corona time babe!")
     }
         
