@@ -43,4 +43,4 @@ function getWeekNumber(d) {
 
 /* Viikkonumero */
 var result = getWeekNumber(new Date());
-document.write(result);
+document.write(" Nyt on viikko " + result);
