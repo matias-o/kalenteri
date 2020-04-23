@@ -22,6 +22,22 @@ body {
   margin: 0;
   font-family: Arial;
 }
+
+.text{
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.row a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+.row a:hover {
+  background-color: #777;
+}
 .column {
   float: left;
   width: 25%;
