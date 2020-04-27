@@ -1,7 +1,3 @@
-#kalenteri{
-  text-align: center;
-}
-
 h1 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -30,64 +26,33 @@ body {
 p {
   font-family: "Ubuntu";
   font-weight: lighter;
-  padding: 5%;
+  padding: 2%;
 }
 
-body {
-  margin: 0;
+#title{
+
+}
+
+.container-fluid{
+  padding: 3% 5%;
 }
 
 .text{
-  width: 80%;
-  padding-left: 10%;
   text-align: center;
+}
+/* Kalenteri osio */
+#kalenteri{
+  text-align: center;
+  padding: 3% 13%;
 }
 
 .row{
   text-align: center;
-  padding-left: 13%;
 }
 
-
-.row a {
-  display: inline-block;
-  color: white;
-  padding: 14px;
-  text-decoration: none;
-}
-.row a:hover {
-  background-color: #777;
-}
-.column {
-  float: left;
-  width: 25%;
-  padding: 10px;
-}
-.column img {
-  opacity: 0.8;
-  cursor: pointer;
-  width: 100%;
-  height: 90%;
-}
-.column img:hover {
-  opacity: 1;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.container {
-  position: relative;
-  display: none;
-}
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
+.luukku-img{
+  width: 80%;
+  height: 80%;
 }
 
 footer{
