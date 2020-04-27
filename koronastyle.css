@@ -1,3 +1,7 @@
+#kalenteri{
+  text-align: center;
+}
+
 h1 {
   text-align: center; color: black;
 }
@@ -26,12 +30,17 @@ body {
 .text{
   width: 80%;
   padding-left: 10%;
-  padding-right: 10%;
 }
+
+.row{
+  text-align: center;
+  padding-left: 13%;
+}
+
+
 .row a {
   display: inline-block;
   color: white;
-  text-align: center;
   padding: 14px;
   text-decoration: none;
 }
