@@ -56,7 +56,7 @@ function luukunAvaus6 () {
 }
 
 function luukunAvaus7 () {
-
+    alert("Mene uimaan!");
 }
 
 function luukunAvaus8 () {
