@@ -42,41 +42,41 @@ function luukunAvaus3 () {
 }
 
 function luukunAvaus4 () {
-    
+    var newWin = open("hietsupopup.HTML","windowName","height=300","width=300");
 }
 
 function luukunAvaus5 () {
-    
+
 }
 
 function luukunAvaus6 () {
-    
+
 }
 
 function luukunAvaus7 () {
-    
+
 }
 
 function luukunAvaus8 () {
-    
+
 }
 
 function luukunAvaus9 () {
-    
+
 }
 
 function luukunAvaus10 () {
-    
+
 }
 
 function luukunAvaus11 () {
-    
+
 }
 
 function luukunAvaus12 () {
-    
+
 }
 
 function luukunAvaus13 () {
-    
+
 }
