@@ -30,7 +30,7 @@ for (var i = 1; i < 14; i++) {
 //jokaisen luukun avaamisfunktion nimi on "luukunAvaus" + luukun numero
 
 function luukunAvaus1 () {
-    alert("asd");
+     window.open("https://www.youtube.com/watch?v=iCzz61uAPJ0");
 }
 
 function luukunAvaus2 () {
