@@ -36,7 +36,7 @@ function luukunAvaus2 () {
 }
 
 function luukunAvaus3 () {
-    window.open();
+    window.open("https://www.youtube.com/watch?v=Z0yV7wz53vs");
 }
 
 function luukunAvaus4 () {
