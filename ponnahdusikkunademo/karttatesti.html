@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+  </head>
+  <body>
+    <h3>Hietsun ilmainen ulkosali</h3>
+    <!--The div element for the map -->
+    <div class="kartta" id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location
+  var hietsunSali = {lat: 60.172841, lng: 24.903181};
+  // The map, centered
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 12, center: hietsunSali});
+  // The marker
+  var marker = new google.maps.Marker({position: hietsunSali, map: map});
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFFC161TRu0JrWsOKPBH61PQMq4U2AHDk&callback=initMap">
+    </script>
+  </body>
+</html>
