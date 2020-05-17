@@ -18,7 +18,7 @@ var aloitusviikko = 15;
 //tämä for-loop käy jokaisen kalenteriluukun läpi ja vaihtaa kuvan luukkuihin, joita ei voi avata
 for (var i = 1; i < 14; i++) {
     if (aloitusviikko > viikko) {
-        document.getElementById("luukku" + i).innerHTML = "<img class=\"luukku-img\"  src=\"img/musta.jpg\"><br><p>Viikko" + i + "</p>";
+        document.getElementById("luukku" + i).innerHTML = "<img class=\"luukku-img\"  src=\"img/kalenteriKuvaKiinni.jpg\" onclick=\"alert('luukkua ei voi vielä avata!')\"><br><p>Viikko" + i + "</p>";
     }
     aloitusviikko++;
 }
