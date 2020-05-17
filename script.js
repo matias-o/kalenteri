@@ -13,7 +13,7 @@ function viikkonyt(d) {
 var viikko = viikkonyt(new Date());
 
 //muuttuja "aloitusviikko" on kalenterin aloitusviikon numero
-var aloitusviikko = 20;
+var aloitusviikko = 15;
 
 //tämä for-loop käy jokaisen kalenteriluukun läpi ja vaihtaa kuvan luukkuihin, joita ei voi avata
 for (var i = 1; i < 14; i++) {
@@ -28,11 +28,11 @@ for (var i = 1; i < 14; i++) {
 //jokaisen luukun avaamisfunktion nimi on "luukunAvaus" + luukun numero
 
 function luukunAvaus1 () {
-    
+    alert("asd");
 }
 
 function luukunAvaus2 () {
-    
+    alert("asd");
 }
 
 function luukunAvaus3 () {
