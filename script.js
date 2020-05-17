@@ -15,10 +15,12 @@ var viikko = viikkonyt(new Date());
 //muuttuja "aloitusviikko" on kalenterin aloitusviikon numero
 var aloitusviikko = 15;
 
-//tämä for-loop käy jokaisen kalenteriluukun läpi ja vaihtaa kuvan luukkuihin, joita ei voi avata
+//tämä for-loop luo jokaiselle viikolle luukun viikon mukaan, joko luukku on avattavissa tai ei
 for (var i = 1; i < 14; i++) {
-    if (aloitusviikko > viikko) {
-        document.getElementById("luukku" + i).innerHTML = "<img class=\"luukku-img\"  src=\"img/kalenteriKuvaKiinni.jpg\" onclick=\"alert('luukkua ei voi vielä avata!')\"><br><p>Viikko" + i + "</p>";
+    if (aloitusviikko < viikko) {
+        document.getElementById("row").innerHTML += "<div class=\"col-lg-4\" id=\"luukku" + i + "\"><a onclick=\"luukunAvaus" + i + "()\" href=\"\"><img class=\"luukku-img\" src=\"img/kalenteriKuvaAuki.jpg\" alt=\"kukkaluukkuAuki\" ><br><p>Viikko " + i + "</p></a>";
+    } else {
+        document.getElementById("row").innerHTML += "<div class=\"col-lg-4\" id=\"luukku" + i + "\"><a onclick=\"luukunAvaus" + i + "()\" href=\"\"><img class=\"luukku-img\" src=\"img/kalenteriKuvaKiinni.jpg\" alt=\"kukkaluukkuKiinni\" ><br><p>Viikko " + i + "</p></a>";
     }
     aloitusviikko++;
 }
