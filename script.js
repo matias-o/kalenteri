@@ -18,9 +18,9 @@ var aloitusviikko = 15;
 //tämä for-loop luo jokaiselle viikolle luukun viikon mukaan, joko luukku on avattavissa tai ei
 for (var i = 1; i < 14; i++) {
     if (aloitusviikko < viikko) {
-        document.getElementById("row").innerHTML += "<div class=\"col-lg-4\" id=\"luukku" + i + "\"><a onclick=\"luukunAvaus" + i + "()\" href=\"\"><img class=\"luukku-img\" src=\"img/kalenteriKuvaAuki.jpg\" alt=\"kukkaluukkuAuki\" ><br><p>Viikko " + i + "</p></a>";
+        document.getElementById("row").innerHTML += "<div class=\"col-lg-4\" id=\"luukku" + i + "\" onclick=\"luukunAvaus" + i + "()\"><img class=\"luukku-img\" src=\"img/kalenteriKuvaAuki.jpg\" alt=\"kukkaluukkuAuki\" ><br><p>Viikko " + i + "</p>";
     } else {
-        document.getElementById("row").innerHTML += "<div class=\"col-lg-4\" id=\"luukku" + i + "\"><a onclick=\"luukunAvaus" + i + "()\" href=\"\"><img class=\"luukku-img\" src=\"img/kalenteriKuvaKiinni.jpg\" alt=\"kukkaluukkuKiinni\" ><br><p>Viikko " + i + "</p></a>";
+        document.getElementById("row").innerHTML += "<div class=\"col-lg-4\" id=\"luukku" + i + "\" onclick=\"alert('Luukkua ei voi vielä avata!')\"><img class=\"luukku-img\" src=\"img/kalenteriKuvaKiinni.jpg\" alt=\"kukkaluukkuKiinni\" ><br><p>Viikko " + i + "</p>";
     }
     aloitusviikko++;
 }
