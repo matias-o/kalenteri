@@ -36,7 +36,7 @@ function luukunAvaus2 () {
 }
 
 function luukunAvaus3 () {
-    
+    window.open();
 }
 
 function luukunAvaus4 () {
