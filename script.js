@@ -13,7 +13,7 @@ function viikkonyt(d) {
 var viikko = viikkonyt(new Date());
 
 //muuttuja "aloitusviikko" on kalenterin aloitusviikon numero
-var aloitusviikko = 15;
+var aloitusviikko = 1;
 
 //tämä for-loop luo jokaiselle viikolle luukun viikon mukaan, joko luukku on avattavissa tai ei
 for (var i = 1; i < 14; i++) {
@@ -34,7 +34,7 @@ function luukunAvaus1 () {
 }
 
 function luukunAvaus2 () {
-    alert("asd");
+    alert("luukku 2 ");
 }
 
 function luukunAvaus3 () {
@@ -46,11 +46,13 @@ function luukunAvaus4 () {
 }
 
 function luukunAvaus5 () {
-
+    window.open("http://velkakello.fi/");
+    alert("WAU! 5. luukusta paljastui sinunkin osuus velasta, upeaa!");
 }
 
 function luukunAvaus6 () {
-
+    window.open("https://www.usdebtclock.org/");
+    alert("6. luukusta tulikin lisää velkaa WAU!");
 }
 
 function luukunAvaus7 () {
