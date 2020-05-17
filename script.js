@@ -4,7 +4,7 @@
     var openDate = new Date();
     openDate.set
     if (day < )
-    
+
 } */
 
 function tarkistaAika() {
@@ -12,8 +12,8 @@ function tarkistaAika() {
     if (viikko > 16){
         alert("it's a corona time babe!")
     }
-        
-       
+
+
 }
 
 function tarkistaAika2() {
@@ -21,8 +21,8 @@ function tarkistaAika2() {
     if (viikko > 18){
         alert("it's a corona time babe!")
     }
-        
-       
+
+
 }
 
 
