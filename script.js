@@ -42,7 +42,7 @@ function luukunAvaus3 () {
 }
 
 function luukunAvaus4 () {
-    var newWin = open("hietsupopup.HTML","windowName","height=300","width=300");
+    var newWin = open("hietsupopup.html","windowName","height=300","width=300");
 }
 
 function luukunAvaus5 () {
