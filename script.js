@@ -34,11 +34,11 @@ function luukunAvaus1 () {
 }
 
 function luukunAvaus2 () {
-    alert("luukku 2 ");
+    alert("2. luukku");
 }
 
 function luukunAvaus3 () {
-    window.open("https://www.youtube.com/watch?v=Z0yV7wz53vs");
+    alert("3. luukku");
 }
 
 function luukunAvaus4 () {
@@ -46,13 +46,11 @@ function luukunAvaus4 () {
 }
 
 function luukunAvaus5 () {
-    window.open("http://velkakello.fi/");
-    alert("WAU! 5. luukusta paljastui sinunkin osuus velasta, upeaa!");
+    alert("5. luukku");
 }
 
 function luukunAvaus6 () {
-    window.open("https://www.usdebtclock.org/");
-    alert("6. luukusta tulikin lisää velkaa WAU!");
+    alert("6. luukku");
 }
 
 function luukunAvaus7 () {
@@ -60,25 +58,25 @@ function luukunAvaus7 () {
 }
 
 function luukunAvaus8 () {
-
+    alert("8. luukku");
 }
 
 function luukunAvaus9 () {
-
+    alert("9. luukku");
 }
 
 function luukunAvaus10 () {
-
+    alert("10. luukku");
 }
 
 function luukunAvaus11 () {
-
+    alert("11. luukku");
 }
 
 function luukunAvaus12 () {
-
+    alert("12. luukku");
 }
 
 function luukunAvaus13 () {
-
+    alert("13. luukku");
 }
