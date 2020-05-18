@@ -5,17 +5,12 @@
   </head>
   <body>
     <h3>Hietsun ilmainen ulkosali</h3>
-    <!--The div element for the map -->
     <div class="kartta" id="map"></div>
     <script>
-// Initialize and add the map
 function initMap() {
-  // The location
   var hietsunSali = {lat: 60.172841, lng: 24.903181};
-  // The map, centered
   var map = new google.maps.Map(
       document.getElementById('map'), {zoom: 12, center: hietsunSali});
-  // The marker
   var marker = new google.maps.Marker({position: hietsunSali, map: map});
 }
     </script>
