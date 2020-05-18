@@ -13,7 +13,7 @@ function viikkonyt(d) {
 var viikko = viikkonyt(new Date());
 
 //muuttuja "aloitusviikko" on kalenterin aloitusviikon numero
-var aloitusviikko = 22;
+var aloitusviikko = 1;
 
 //tämä for-loop luo jokaiselle viikolle luukun viikon mukaan, joko luukku on avattavissa tai ei
 for (var i = 1; i < 14; i++) {
@@ -34,11 +34,11 @@ function luukunAvaus1 () {
 }
 
 function luukunAvaus2 () {
-    alert("2. luukku");
+    alert("3. luukku on laadukasta ja hyvin tuotettua sisältö!");
 }
 
 function luukunAvaus3 () {
-    alert("3. luukku");
+    document.getElementById("luukku3").innerHTML = "<video autoplay class=\"luukku-img\" src=\"video/prank.mp4\" alt=\"luukku3prank\"><br><p>Viikko 3</p>"
 }
 
 function luukunAvaus4 () {
