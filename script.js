@@ -13,7 +13,7 @@ function viikkonyt(d) {
 var viikko = viikkonyt(new Date());
 
 //muuttuja "aloitusviikko" on kalenterin aloitusviikon numero
-var aloitusviikko = 1;
+var aloitusviikko = 22;
 
 //tämä for-loop luo jokaiselle viikolle luukun viikon mukaan, joko luukku on avattavissa tai ei
 for (var i = 1; i < 14; i++) {
